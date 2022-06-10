@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let StartingPosition = ["*", "*", "*",
-    "*", "*", "*",
-    "*", "*", "*"];
+  
     const Cross = "X"
     const Nought = "O"
     const Squares = document.querySelectorAll('.grid div')
