@@ -1,0 +1,29 @@
+
+.grid {
+    border: 1px solid;
+    height: 520px;
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.grid div {
+    height: 100px;
+    width: 100px;
+    border: 1px dashed;
+    margin: 6%
+  }
+
+.grid .row_1  {
+    margin-top: 10px;
+}
+.grid .row_2  {
+    margin-top: 10px;
+}
+.grid .row_3  {
+    margin-top: 10px;
+}
+
+button {
+    margin: auto
+}
