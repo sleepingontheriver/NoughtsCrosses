@@ -1,5 +1,16 @@
+body {
+    background-image: url("Background.jpg");
+    opacity: 0.95;
+}
+.title {
+    text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
 
 .grid {
+    background-color: rgba(250, 235, 215, 0.403);
+    margin: auto;
     border: 1px solid;
     height: 520px;
     width: 540px;
@@ -24,6 +35,14 @@
     margin-top: 10px;
 }
 
-button {
-    margin: auto
+.button {
+    margin: auto;
+    border: 1px;
+    color: black;
+    padding: 10px 16px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
